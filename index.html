@@ -22,7 +22,7 @@
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="High quality aviation training you can trust.">
-    
+
     <!-- CSS -->
 
     <!-- DEV -->
@@ -30,15 +30,21 @@
 
     <link rel="preload" href="assets/css/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="assets/css/styles.min.css"></noscript>
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61175764-1"></script>
+    <!-- Google Tag Manager -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-61175764-1');
+        function loadgtm() {
+            setTimeout(function(){
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.defer=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-T883LZ');
+                window.dataLayer = window.dataLayer || [];
+            }, 3000);
+            return true;
+        }
     </script>
+    <!-- End Google Tag Manager -->
 
     <!-- PARDOT -->
     <script type="text/javascript">
@@ -65,7 +71,7 @@
 
 </head>
 
-<body>
+<body onload="loadgtm()">
 
 <div id="header" class="header">
     <!-- <div class="container-fluid">
@@ -928,7 +934,7 @@
                 <div class="col-sm-12 col-lg-5 mb-4">
                     <div class="embed-responsive embed-responsive-16by9" style="border: 10px solid #EF4632;">
                         <iframe class="embed-responsive-item lazyload" src="https://www.youtube.com/embed/aFtO9QJrMYc"
-                        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/aFtO9QJrMYc?autoplay=1><img src=https://img.youtube.com/vi_webp/aFtO9QJrMYc/maxresdefault.webp alt='Why Choose IATA Training?'><span>&#x25BA;</span></a>"
+                                srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/aFtO9QJrMYc?autoplay=1><img src=https://img.youtube.com/vi_webp/aFtO9QJrMYc/maxresdefault.webp alt='Why Choose IATA Training?'><span>&#x25BA;</span></a>"
                                 allowfullscreen></iframe>
                     </div>
                 </div>
