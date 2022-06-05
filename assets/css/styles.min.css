@@ -1,1 +1,439 @@
-.training-glance h2 span{color:#1E32FA}.training-glance .glance-slider{margin-bottom:30px}.training-glance .glance-slider .slick-track{display:flex;align-items:stretch;justify-content:center}.training-glance .glance-slider .slick-track .slick-slide{margin:0 10px;height:auto}.training-glance .glance-slider .slick-list{margin:0 -10px}.training-glance .glance-slider .slide .card{padding:20px 20px;background:#F9C732;border:none;border-radius:0;text-align:center}.training-glance .glance-slider .slide .card:before{position:absolute;top:10px;left:10px;content:'';width:26px;height:26px;background:url("https://go.updates.iata.org/l/123902/2021-01-10/8m298y/123902/1610311659q8ZZQZI5/card_triangle.svg");background-size:26px 26px}.training-glance .glance-slider .slide .card .number{font-size:42px;line-height:42px;font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:700;font-style:normal}@media (max-width: 991.98px){.training-glance .glance-slider .slide .card .number{font-size:34px;line-height:34px}}@media (max-width: 767.98px){.training-glance .glance-slider .slide .card .number{font-size:26px;line-height:26px}}.training-glance .glance-slider .slide .card .description{font-size:16px}@media (max-width: 991.98px){.training-glance .glance-slider .slide .card .description{font-size:13px}}@media (max-width: 767.98px){.training-glance .glance-slider .slide .card .description{font-size:10px;line-height:13px}}.training-benefits{background-color:#fff;padding:0rem 0 3rem}.training-benefits h2 span{color:#1E32FA}.training-benefits .card{background:#1E32FA;border:none;border-radius:0;padding:16px;color:#fff}@media (max-width: 767.98px){.training-benefits .card{padding:10px}}.training-benefits .card:after{position:absolute;top:0px;right:0px;content:'';width:46px;height:46px;background:url("https://go.updates.iata.org/l/123902/2021-01-10/8m298r/123902/1610311659SjNqivnI/card_triangle_yellow.svg");background-size:46px 46px}.training-benefits .card .card-img-top{border-radius:0px}.training-benefits .card .card-body{padding:10px 0 0px;display:flex;flex-direction:column;flex:1}.training-benefits .card .card-body .card-title{font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:700;font-style:normal;margin-bottom:8px;font-size:18px}@media (max-width: 767.98px){.training-benefits .card .card-body .card-title{font-size:15px;line-height:18px}}.training-benefits .card .card-body .card-text{margin-top:auto;align-self:flex-end}@media (max-width: 767.98px){.training-benefits .card .card-body .card-text{font-size:11px;line-height:13px}}.training-benefits .card .card-footer{background:transparent;padding:0px;border-top:none}.training-benefits .card .card-footer .fa-sort-down,.training-benefits .card .card-footer .fa-sort-up{color:#fff;font-size:26px;line-height:12px;text-decoration:none}.training-benefits .card .card-footer .fa-sort-down:hover,.training-benefits .card .card-footer .fa-sort-up:hover{color:#F9C732;text-decoration:none;cursor:pointer}.training-benefits .card .card-footer .fa-sort-up{transform:translateY(8px)}.quote{background:#fff}.quote .slide .quote{font-size:20px;font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:700;font-style:normal}.quote .slide .author{font-size:16px;font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:400;font-style:normal}.quote .slide .author span{font-size:14px;font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:300;font-style:normal}.quote .slide .quote-photo{padding:0 0 0 2rem}@media (max-width: 991.98px){.quote .slide .quote-photo{padding:0 0 1.5rem 0}}.quote h2 span{color:#1E32FA}.quote h2 span.percent{color:#EF4632;font-size:46px}.cta{background:#F9C732;padding:80px 0}@media (max-width: 767.98px){.cta{padding:40px 0}}.cta h2{margin:0 0 20px}.cta h2 span{color:#EF4632}@media (min-width: 768px) and (max-width: 991.98px){.cta p{padding:0 40px}}.top-courses h2.bar{border-bottom-color:#1E32FA}.top-courses h2 span{color:#1E32FA}.top-courses .slick-track{display:flex;align-items:stretch;justify-content:center}.top-courses .slick-track .slick-slide{margin:0 10px;height:auto}.top-courses .slick-list{margin:0 -10px}.top-courses .slide .card{padding:0px;background:#1E32FA;border:none;border-radius:0;text-align:center}.top-courses .slide .card:before{position:absolute;top:0px;right:0px;content:'';width:26px;height:26px;background:url("https://go.updates.iata.org/l/123902/2021-01-10/8m298t/123902/1610311659cyGITKAm/card_triangle_blue.svg");background-size:26px 26px}.top-courses .slide .card .card-img-top{border-radius:0px}.top-courses .slide .card .card-body{padding:14px 20px 10px;color:#fff;text-align:left}.top-courses .slide .card .card-body .card-title{font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:700;font-style:normal;margin-bottom:10px;font-size:18px}@media (max-width: 1199.98px){.top-courses .slide .card .card-body .card-title{font-size:16px}}.top-courses .slide .card .card-body .card-text{font-size:12px}.top-courses .slide .card .card-footer{padding:0px 20px 10px;border:none;background-color:transparent;text-align:left}.top-courses .slide .card .card-footer .card-text{font-size:12px;color:#fff}.area-of-study{background:#F2F2F2}.area-of-study h2{margin-bottom:10px}.area-of-study h2 span{color:#1E32FA}.area-of-study .slick-track{display:flex;align-items:stretch;justify-content:center}.area-of-study .slick-track .slick-slide{margin:0 10px;height:auto}.area-of-study .slick-list{margin:0 -10px}.area-of-study .sliderDotsAreaOfStudy ul.slick-dots li{background-color:#fff}.area-of-study .sliderDotsAreaOfStudy ul.slick-dots li.slick-active{background-color:#EF4632}.area-of-study .slide .card{padding:0px;background:#F9C732;border:none;border-radius:0;text-align:center}.area-of-study .slide .card:before{position:absolute;top:0px;right:0px;content:'';width:26px;height:26px;background:url("https://go.updates.iata.org/l/123902/2021-01-15/8m2klt/123902/1610741307gwbZaC0q/card_triangle_yellow.svg");background-size:26px 26px}.area-of-study .slide .card .card-img-top{border-radius:0px}.area-of-study .slide .card .card-body{padding:10px 16px 10px;color:#000;text-align:left}@media (max-width: 767.98px){.area-of-study .slide .card .card-body{padding:14px 10px 10px}}.area-of-study .slide .card .card-body .card-title{font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:700;font-style:normal;margin-bottom:0px;font-size:18px}@media (max-width: 767.98px){.area-of-study .slide .card .card-body .card-title{font-size:15px;line-height:18px}}.area-of-study .slide .card .card-footer{padding:0px 20px 10px;border:none;background-color:transparent;text-align:left}@media (max-width: 767.98px){.area-of-study .slide .card .card-footer{padding:0px 10px 10px}}.area-of-study .slide .card .card-footer .card-text{font-size:12px;color:#000}.area-of-study .slide .card-cta{background:transparent}.area-of-study .slide .card-cta:before{background:none}.learning-style h2.bar{border-bottom-color:#1E32FA}.learning-style h2 span{color:#1E32FA}.learning-style .learning-icon{margin:0 auto 20px}.learning-style .learning-text{font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:700;font-style:normal;font-size:16px;line-height:20px}.leading-universities{background:#F2F2F2}.leading-universities h2.bar{border-bottom-color:#1E32FA}.leading-universities h2 span{color:#1E32FA}.leading-universities .learning-icon{margin:0 0px 20px}.leading-universities .learning-text{font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:700;font-style:normal;font-size:16px}.footer{background:#525252;padding:40px 0;color:#fff}.footer a{color:#fff}.footer a:hover{color:#F9C732;text-decoration:none}.footer p{font-size:12px}.footer p span{font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:700;font-style:normal}.footer .tagline{font-size:24px;font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;font-weight:400;font-style:normal;padding:0;margin:0}.footer .social-icon{margin:0 0 0 2rem}@media (max-width: 991.98px){.footer .social-icon{margin:0rem .5rem 0}}@media (max-width: 767.98px){.footer .social-icon{margin:2rem 1rem 0}}
+.training-glance h2 span{
+    color:#1E32FA
+}
+.training-glance .glance-slider{
+    margin-bottom:30px
+}
+.training-glance .glance-slider .slick-track{
+    display:flex;
+    align-items:stretch;
+    justify-content:center
+}
+.training-glance .glance-slider .slick-track .slick-slide{
+    margin:0 10px;
+    height:auto
+}
+.training-glance .glance-slider .slick-list{
+    margin:0 -10px
+}
+.training-glance .glance-slider .slide .card{
+    padding:20px 20px;
+    background:#F9C732;
+    border:none;
+    border-radius:0;
+    text-align:center
+}
+.training-glance .glance-slider .slide .card:before{
+    position:absolute;
+    top:10px;
+    left:10px;
+    content:'';
+    width:26px;
+    height:26px;
+    background:url("https://go.updates.iata.org/l/123902/2021-01-10/8m298y/123902/1610311659q8ZZQZI5/card_triangle.svg");
+    background-size:26px 26px
+}
+.training-glance .glance-slider .slide .card .number{
+    font-size:42px;
+    line-height:42px;
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-style:normal
+}
+@media (max-width: 991.98px){
+    .training-glance .glance-slider .slide .card .number{
+        font-size:34px;
+        line-height:34px
+    }
+}
+@media (max-width: 767.98px){
+    .training-glance .glance-slider .slide .card .number{
+        font-size:26px;
+        line-height:26px
+    }
+}
+.training-glance .glance-slider .slide .card .description{
+    font-size:16px
+}
+@media (max-width: 991.98px){
+    .training-glance .glance-slider .slide .card .description{
+        font-size:13px
+    }
+}
+@media (max-width: 767.98px){
+    .training-glance .glance-slider .slide .card .description{
+        font-size:10px;
+        line-height:13px
+    }
+}
+.training-benefits{
+    background-color:#fff;
+    padding:0rem 0 3rem
+}
+.training-benefits h2 span{
+    color:#1E32FA
+}
+.training-benefits .card{
+    background:#1E32FA;
+    border:none;
+    border-radius:0;
+    padding:16px;
+    color:#fff
+}
+@media (max-width: 767.98px){
+    .training-benefits .card{
+        padding:10px
+    }
+}
+.training-benefits .card:after{
+    position:absolute;
+    top:0px;
+    right:0px;
+    content:'';
+    width:46px;
+    height:46px;
+    background:url("https://go.updates.iata.org/l/123902/2021-01-10/8m298r/123902/1610311659SjNqivnI/card_triangle_yellow.svg");
+    background-size:46px 46px
+}
+.training-benefits .card .card-img-top{
+    border-radius:0px
+}
+.training-benefits .card .card-body{
+    padding:10px 0 0px;
+    display:flex;
+    flex-direction:column;
+    flex:1
+}
+.training-benefits .card .card-body .card-title{
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-style:normal;
+    margin-bottom:8px;
+    font-size:18px
+}
+@media (max-width: 767.98px){
+    .training-benefits .card .card-body .card-title{
+        font-size:15px;
+        line-height:18px
+    }
+}
+.training-benefits .card .card-body .card-text{
+    margin-top:auto;
+    align-self:flex-end
+}
+@media (max-width: 767.98px){
+    .training-benefits .card .card-body .card-text{
+        font-size:11px;
+        line-height:13px
+    }
+}
+.training-benefits .card .card-footer{
+    background:transparent;
+    padding:0px;
+    border-top:none
+}
+.training-benefits .card .card-footer .fa-sort-down,.training-benefits .card .card-footer .fa-sort-up{
+    color:#fff;
+    font-size:26px;
+    line-height:12px;
+    text-decoration:none
+}
+.training-benefits .card .card-footer .fa-sort-down:hover,.training-benefits .card .card-footer .fa-sort-up:hover{
+    color:#F9C732;
+    text-decoration:none;
+    cursor:pointer
+}
+.training-benefits .card .card-footer .fa-sort-up{
+    transform:translateY(8px)
+}
+.quote{
+    background:#fff
+}
+.quote .slide .quote{
+    font-size:20px;
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-style:normal
+}
+.quote .slide .author{
+    font-size:16px;
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:400;
+    font-style:normal
+}
+.quote .slide .author span{
+    font-size:14px;
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:300;
+    font-style:normal
+}
+.quote .slide .quote-photo{
+    padding:0 0 0 2rem
+}
+@media (max-width: 991.98px){
+    .quote .slide .quote-photo{
+        padding:0 0 1.5rem 0
+    }
+}
+.quote h2 span{
+    color:#1E32FA
+}
+.quote h2 span.percent{
+    color:#EF4632;
+    font-size:46px
+}
+.cta{
+    background:#F9C732;
+    padding:80px 0
+}
+@media (max-width: 767.98px){
+    .cta{
+        padding:40px 0
+    }
+}
+.cta h2{
+    margin:0 0 20px
+}
+.cta h2 span{
+    color:#EF4632
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .cta p{
+        padding:0 40px
+    }
+}
+.top-courses h2.bar{
+    border-bottom-color:#1E32FA
+}
+.top-courses h2 span{
+    color:#1E32FA
+}
+.top-courses .slick-track{
+    display:flex;
+    align-items:stretch;
+    justify-content:center
+}
+.top-courses .slick-track .slick-slide{
+    margin:0 10px;
+    height:auto
+}
+.top-courses .slick-list{
+    margin:0 -10px
+}
+.top-courses .slide .card{
+    padding:0px;
+    background:#1E32FA;
+    border:none;
+    border-radius:0;
+    text-align:center
+}
+.top-courses .slide .card:before{
+    position:absolute;
+    top:0px;
+    right:0px;
+    content:'';
+    width:26px;
+    height:26px;
+    background:url("https://go.updates.iata.org/l/123902/2021-01-10/8m298t/123902/1610311659cyGITKAm/card_triangle_blue.svg");
+    background-size:26px 26px
+}
+.top-courses .slide .card .card-img-top{
+    border-radius:0px
+}
+.top-courses .slide .card .card-body{
+    padding:14px 20px 10px;
+    color:#fff;
+    text-align:left
+}
+.top-courses .slide .card .card-body .card-title{
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-style:normal;
+    margin-bottom:10px;
+    font-size:18px
+}
+@media (max-width: 1199.98px){
+    .top-courses .slide .card .card-body .card-title{
+        font-size:16px
+    }
+}
+.top-courses .slide .card .card-body .card-text{
+    font-size:12px
+}
+.top-courses .slide .card .card-footer{
+    padding:0px 20px 10px;
+    border:none;
+    background-color:transparent;
+    text-align:left
+}
+.top-courses .slide .card .card-footer .card-text{
+    font-size:12px;
+    color:#fff
+}
+.area-of-study{
+    background:#F2F2F2
+}
+.area-of-study h2{
+    margin-bottom:10px
+}
+.area-of-study h2 span{
+    color:#1E32FA
+}
+.area-of-study .slick-track{
+    display:flex;
+    align-items:stretch;
+    justify-content:center
+}
+.area-of-study .slick-track .slick-slide{
+    margin:0 10px;
+    height:auto
+}
+.area-of-study .slick-list{
+    margin:0 -10px
+}
+.area-of-study .sliderDotsAreaOfStudy ul.slick-dots li{
+    background-color:#fff
+}
+.area-of-study .sliderDotsAreaOfStudy ul.slick-dots li.slick-active{
+    background-color:#EF4632
+}
+.area-of-study .slide .card{
+    padding:0px;
+    background:#F9C732;
+    border:none;
+    border-radius:0;
+    text-align:center
+}
+.area-of-study .slide .card:before{
+    position:absolute;
+    top:0px;
+    right:0px;
+    content:'';
+    width:26px;
+    height:26px;
+    background:url("https://go.updates.iata.org/l/123902/2021-01-15/8m2klt/123902/1610741307gwbZaC0q/card_triangle_yellow.svg");
+    background-size:26px 26px
+}
+.area-of-study .slide .card .card-img-top{
+    border-radius:0px
+}
+.area-of-study .slide .card .card-body{
+    padding:10px 16px 10px;
+    color:#000;
+    text-align:left
+}
+@media (max-width: 767.98px){
+    .area-of-study .slide .card .card-body{
+        padding:14px 10px 10px
+    }
+}
+.area-of-study .slide .card .card-body .card-title{
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-style:normal;
+    margin-bottom:0px;
+    font-size:18px
+}
+@media (max-width: 767.98px){
+    .area-of-study .slide .card .card-body .card-title{
+        font-size:15px;
+        line-height:18px
+    }
+}
+.area-of-study .slide .card .card-footer{
+    padding:0px 20px 10px;
+    border:none;
+    background-color:transparent;
+    text-align:left
+}
+@media (max-width: 767.98px){
+    .area-of-study .slide .card .card-footer{
+        padding:0px 10px 10px
+    }
+}
+.area-of-study .slide .card .card-footer .card-text{
+    font-size:12px;
+    color:#000
+}
+.area-of-study .slide .card-cta{
+    background:transparent
+}
+.area-of-study .slide .card-cta:before{
+    background:none
+}
+.learning-style h2.bar{
+    border-bottom-color:#1E32FA
+}
+.learning-style h2 span{
+    color:#1E32FA
+}
+.learning-style .learning-icon{
+    margin:0 auto 20px
+}
+.learning-style .learning-text{
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-style:normal;
+    font-size:16px;
+    line-height:20px
+}
+.leading-universities{
+    background:#F2F2F2
+}
+.leading-universities h2.bar{
+    border-bottom-color:#1E32FA
+}
+.leading-universities h2 span{
+    color:#1E32FA
+}
+.leading-universities .learning-icon{
+    margin:0 0px 20px
+}
+.leading-universities .learning-text{
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-style:normal;
+    font-size:16px
+}
+.footer{
+    background:#525252;
+    padding:40px 0;
+    color:#fff
+}
+.footer a{
+    color:#fff
+}
+.footer a:hover{
+    color:#F9C732;
+    text-decoration:none
+}
+.footer p{
+    font-size:12px
+}
+.footer p span{
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-style:normal
+}
+.footer .tagline{
+    font-size:24px;
+    font-family:aktiv-grotesk, Arial, Helvetica, sans-serif;
+    font-weight:400;
+    font-style:normal;
+    padding:0;
+    margin:0
+}
+.footer .social-icon{
+    margin:0 0 0 2rem
+}
+@media (max-width: 991.98px){
+    .footer .social-icon{
+        margin:0rem .5rem 0
+    }
+}
+@media (max-width: 767.98px){
+    .footer .social-icon{
+        margin:2rem 1rem 0
+    }
+}
+ 
