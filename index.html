@@ -18,20 +18,30 @@
           color="#1e32fa">
     <link rel="shortcut icon"
           href="assets/images/favicon/favicon.ico">
+          
+    <link rel="preload" as="image"
+          href="assets/images/slider_lp/slide_01_xl.webp"
+          media="(min-width: 992px)" />
+    <link rel="preload" as="image"
+          href="assets/images/slider_lp/slide_01_lg.webp"
+          media="(min-width: 768px) and (max-width: 991.98px)" />
+    <link rel="preload" as="image"
+          href="assets/images/slider_lp/slide_01_md.webp"
+          media="(min-width: 576px) and (max-width: 767.98px)" />
+    <link rel="preload" as="image"
+          href="assets/images/slider_lp/slide_01_sm.webp"
+          media="(max-width: 575.98px)" />
 
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="High quality aviation training you can trust.">
 
     <!-- CSS -->
-    <link loading="lazy" rel="stylesheet" href="https://use.typekit.net/wpr4tff.css">
-    <script loading="lazy" src="https://kit.fontawesome.com/61ffe022db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="(min-width:62em)" onload="this.onload=null;this.removeAttribute('media');" href="assets/css/typekit.css">
 
     <!-- DEV -->
-    <link rel="stylesheet" type="text/css" href="assets/css/lp_central_critical.min.css" />
-
-    <link rel="preload" href="assets/css/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="assets/css/styles.min.css"></noscript>
+    <link rel="stylesheet" href="assets/css/lp_central_critical.min.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="assets/css/styles.min.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
     <!-- Google Tag Manager -->
     <script>
         function loadgtm() {
@@ -44,6 +54,20 @@
                 window.dataLayer = window.dataLayer || [];
             }, 3000);
             return true;
+        }
+        function loadawesome() {
+            setTimeout(function(){
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'kit.fontawesome.com/61ffe022db.js';
+                var c = document.getElementsByTagName('script')[0];
+                c.parentNode.insertBefore(s, c);
+            }, 3000);
+            return true;
+        }
+        function loadlazy() {
+            loadgtm();
+            loadawesome();
         }
     </script>
     <!-- End Google Tag Manager -->
@@ -73,7 +97,7 @@
 
 </head>
 
-<body onload="loadgtm()">
+<body onload="loadlazy()">
 
 <div id="header" class="header">
     <!-- <div class="container-fluid">
