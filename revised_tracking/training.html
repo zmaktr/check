@@ -89,15 +89,14 @@
     
     <!-- Youtube Lazyload -->
     <script>
-    function loadYT() {
+    function loadAll() {
+        loadYoutubeVideo();
+    }
+    function loadYoutubeVideo() {
         setTimeout(function(){
             $("#youtube-video").html('<iframe class="embed-responsive-item lazyload" allowfullscreen src="https://www.youtube.com/embed/aFtO9QJrMYc"></iframe>');
             $("#youtube-video").addClass('embed-responsive-16by9');
-        }, 3000);
-        return true;
-    }
-    function loadlazy() {
-        loadYT();
+        }, 4000);
     }
     </script>
     <!-- Youtube Lazyload -->
