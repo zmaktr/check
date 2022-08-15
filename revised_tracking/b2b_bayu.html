@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 
@@ -54,64 +53,69 @@
     <noscript><link rel="preload" href="https://go.updates.iata.org/l/123902/2022-07-19/gtdgq8/123902/1658208078YtMpGRgv/style.min.css"></noscript>
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T883LZ');</script>
-    <!-- End Google Tag Manager -->
-  
-    <!-- dataLayer Initialization -->
-    <script>
-      window.dataLayer = window.dataLayer || [];
-    </script>
-    <!-- dataLayer Initialization -->
-  
-    <!-- PARDOT -->
-    <script type="text/javascript">
-      piAId = '124902';
-      piCId = '102410';
-      piHostname = 'pi.pardot.com';
-  
-      (function () {
-        function async_load() {
-          var s = document.createElement('script');
-          s.type = 'text/javascript';
-          s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
-          var c = document.getElementsByTagName('script')[0];
-          c.parentNode.insertBefore(s, c);
-        }
-        if (window.attachEvent) {
-          window.attachEvent('onload', async_load);
-        } else {
-          window.addEventListener('load', async_load, false);
-        }
-      })();
-    </script>
-    <!--End pardot-->
-    
-    <!-- Delay youtube video -->
     <script>
         function loadAll(){
+            loadGtm();
+            loadPardot();
             loadYoutubeVideo();
+        }
+        function loadGtm() {
+            setTimeout(function() {
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-T883LZ');
+                return true;
+            }, 4000);
+        }
+        function loadPardot(){
+            piAId = '124902';
+            piCId = '102410';
+            piHostname = 'pi.pardot.com';
+
+            (function () {
+                function async_load() {
+                    var s = document.createElement('script');
+                    s.type = 'text/javascript';
+                    s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                    var c = document.getElementsByTagName('script')[0];
+                    c.parentNode.insertBefore(s, c);
+                }
+                if (window.attachEvent) {
+                    window.attachEvent('onload', async_load);
+                } else {
+                    window.addEventListener('load', async_load, false);
+                }
+            })();
         }
         function loadYoutubeVideo(){
             setTimeout(function(){
                 $("#youtube1").html('<iframe width="560" height="315" class="embed-responsive-item lazyload" allowfullscreen src="//www.youtube.com/embed/6Qdvhs-sNcM"></iframe>');
                 $("#youtube2").html('<iframe width="560" height="315" class="embed-responsive-item lazyload" allowfullscreen src="https://www.youtube.com/embed/WL4F-2_0pW4"></iframe>');
                 $("#youtube3").html('<iframe width="560" height="315" class="embed-responsive-item lazyload" allowfullscreen src="https://www.youtube.com/embed/1sO6v4jxle8"></iframe>');
-            }, 4000);
-        };
+            }, 3000);
+        }
     </script>
-    <!-- End delay youtube video -->
+    <!-- End Google Tag Manager -->
 
+    <!-- dataLayer Initialization -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    </script>
+    <!-- dataLayer Initialization -->
+
+    <!-- PARDOT -->
+    <script type="text/javascript">
+
+    </script>
 </head>
 
 <body id="body" onload="loadAll()">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T883LZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <div id="logo">
@@ -1517,7 +1521,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <h2 style="margin-bottom: 0px;">There has been an error</h2>
                             <p >Please submit your inquery again.</p>
                         </div>
-                        <form id="advice-form" action="https://go.updates.iata.org/l/123902/2022-07-15/gt6qtk" method="post" class="needs-validation" novalidate>
+                        <form id="advice-form" action="http://go.updates.iata.org/l/123902/2022-07-15/gt6qtk" method="post" class="needs-validation" novalidate>
                             <div class="row">
                                 <div class="col-12 col-md-12 col-lg-12">
                                     <div class="row">
@@ -1974,7 +1978,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-                        <form id="covid-form" action="https://go.updates.iata.org/l/123902/2022-07-15/gt6qtn" method="post" class="needs-validation" novalidate>
+                        <form id="covid-form" action="http://go.updates.iata.org/l/123902/2022-07-15/gt6qtn" method="post" class="needs-validation" novalidate>
                             <div class="row">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="inputFirstName">First Name</label>
@@ -3048,38 +3052,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- Scripts PRODUCTION-->
 <script type="text/javascript" src="https://go.updates.iata.org/l/123902/2022-07-19/gtdgqc/123902/1658208085V6nbLGZ8/scripts.min.js" async defer></script>
-<script>
-    (function () {
-        if (typeof EventTarget !== "undefined") {
-            let func = EventTarget.prototype.addEventListener;
-            EventTarget.prototype.addEventListener = function (type, fn, capture) {
-                this.func = func;
-                if(typeof capture !== "boolean"){
-                    capture = capture || {};
-                    capture.passive = false;
-                }
-                this.func(type, fn, capture);
-            };
-        };
-    }());
-</script>
-<script>
-    function str_img_src($html) {
-        if (stripos($html, '<img') !== false) {
-            $imgsrc_regex = '#<\s*img [^\>]*src\s*=\s*(["\'])(.*?)\1#im';
-            preg_match($imgsrc_regex, $html, $matches);
-            unset($imgsrc_regex);
-            unset($html);
-            if (is_array($matches) && !empty($matches)) {
-                return $matches[2];
-            } else {
-                return false;
-            }
-        } else {
-            return false;
-        }
-    }
-    console.log(str_img_src)
-</script>
+
 </body>
 </html>
